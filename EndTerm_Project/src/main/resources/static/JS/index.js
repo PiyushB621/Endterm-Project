@@ -9,7 +9,7 @@ function adddata()
     let ph_no=document.getElementById("ph_no").value;
 
     var xhttp = new XMLHttpRequest();
-    xhttp.open("POST", "https://contactbookupgrad.herokuapp/add", true);
+    xhttp.open("POST", "https://todo-28.herokuapp/add", true);
  
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
